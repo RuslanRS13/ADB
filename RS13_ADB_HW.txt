@@ -1,8 +1,3 @@
-ADB HW_1
-
-Сценарий напишите в .txt файл.
-.txt сценарий и .log файл прииложения todolist выгружайте на GitHub.
-Ссылкку на гитхаб присылайте в лс.
 
  1. Отобразить подключённый девайс в консоли.
 	./adb devices
@@ -20,7 +15,7 @@ ADB HW_1
 	./ adb logcat | grep todolist /Users/RS13/Testing/QA_Course/ABD
 
  6. Скопировать логи приложения todolist на компьютер.
-		./ adb logcat | grep todolist >todolist.log
+	./ adb logcat | grep todolist >todolist.log
 
  7. Удалить приложение todolist с телефона через ADB
 	./adb uninstall com.android.todolist
